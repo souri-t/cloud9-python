@@ -39,8 +39,7 @@ PASSWORD: pass
 ├── Dockerfile
 ├── README.md
 ├── docker-compose.yml
-├── workspace
-└── aws
+└── workspace
 ```
 
 
@@ -49,18 +48,6 @@ PASSWORD: pass
 
   ホストとコンテナが共有するディレクトリ。cloud9で作成したソースコードが格納される。
 
-- aws
-
-  ホストとコンテナが共有するディレクトリ。AWS認証ファイルの保管用。「aws configure」で生成した認証ファイルはこのディレクトリから読み込まれる。
-
-## AWS認証ファイルの作成
-
-1. cloud9の下部のタブからターミナルを起動する。無い場合はメニューの「Window - New Terminal」から起動する。
-
-2. aws configureコマンドを実行し、認証ファイルを作成する。（作成方法は公式サイトを参照）
-
-   （以降はdocker-compose実行の度に同じ認証ファイルが使用される。）
-   
 ## コーディングと実行
 1. Python3.6が使用できる状態になっているため、[File]-[New File]からpythonfファイルを新規作成し、コーディングを進める。
 
