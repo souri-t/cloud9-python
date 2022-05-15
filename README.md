@@ -1,4 +1,4 @@
-# cloud9 with AWS development environment
+# cloud9
 
 ## 起動と終了
 ### 起動
